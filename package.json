@@ -1,0 +1,15 @@
+{
+  "name": "sample",
+  "version": "1.0.0",
+  "description": "sample for npm issue #10096",
+  "main": "index.js",
+  "repository":"git@github.com:cdhouk/sample.git",
+  "scripts": {
+    "test": "tape test/**/*.js"
+  },
+  "dependencies": {
+	  "postal-standardization":"git@github.com:mpelikan/postal-standardization.git"
+  },
+  "author": "chouk@path2response.com",
+  "license": "MIT"
+}
